@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class task2 {
     public static void main(String[] args) throws IOException {
-        double pow = Math.pow(-3d, 2);
         if (args.length != 2) {
             throw new IllegalArgumentException("Передано неверное количество аргументов");
         }
